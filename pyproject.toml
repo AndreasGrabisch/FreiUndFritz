@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "freiundfritz"
+version = "0.1.0"
+description = "Door/room access management via Anny and electric door locks"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "pytest-mock>=3",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["freiundfritz/tests"]

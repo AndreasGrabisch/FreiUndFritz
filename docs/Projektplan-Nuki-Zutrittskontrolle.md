@@ -48,14 +48,141 @@ Wir schlagen vor, die Zutritte zu buchbaren Kellerräumen und zur Haustür schri
 4. **Selbstmontage** wo möglich; keine aufwendige Verkabelung.
 5. **Fluchtwege und baurechtliche Vorgaben** werden vor Inbetriebnahme geklärt und eingehalten.
 
-### 2.3 Bewusst nicht gewählt
+### 2.3 Bewusst nicht gewählt — Kurzüberblick
 
-| Alternative | Grund der Ablehnung |
-|-------------|---------------------|
-| KleverKey (alle Türen) | Hohe laufende Kosten bei vielen Berechtigungen; Zylinderersatz |
-| dormakaba Exivo | Keine transparenten Preise; Fachbetrieb; monatliches Service-Modell |
-| UniFi Door Access | Hohe Hardware- und Installationskosten; Verkabelung; Overkill für Wohnhaus |
-| EVVA AirKey (Haustür) | Fachbetrieb; zweites System neben Kellerräumen |
+| Alternative | Kurzfassung Ablehnung |
+|-------------|----------------------|
+| **KleverKey** | Laufende Kosten skalieren mit Nutzerzahl — bei ~200 Bewohnern an der Haustür unverhältnismäßig teuer |
+| **UniFi Door Access** | Gewerbe-/Enterprise-System; Verkabelung, hohe Investition, kein Zylinder-Nachrüstsatz |
+| **dormakaba Exivo** | Intransparente Preise; nur Fachbetrieb; monatliches Service-Abo |
+| **EVVA AirKey** | Fachbetrieb; jährliche KeyCredits; Mischbetrieb mit Kellerräumen ungünstig |
+| **Tapkey** | Nutzerpakete / laufende Gebühren; ähnliche Kostenskala wie KleverKey |
+| **Salto KS / Salto Space** | Hotel-/Gewerbe-Standard; teure Infrastruktur; Overkill für Wohnhaus |
+
+Ausführliche Begründungen: **Kapitel 2.4**.
+
+---
+
+### 2.4 Systemvergleich — Warum nicht die Alternativen?
+
+Im Folgenden die geprüften Alternativen und die Gründe, warum sie für unser Haus **nicht** empfohlen werden. Die Bewertung orientiert sich an unseren konkreten Rahmenbedingungen: **~200 Bewohner**, **öffentliche Anny-Buchungen**, **fünf Türen**, **mechanische Schlüssel bleiben**, **DIY wo möglich**, **keine Nutzer-Abo-Kosten für Bewohner**, **Fluchtwege/Klinke innen** müssen erhalten bleiben.
+
+#### KleverKey
+
+KleverKey (DOM/SimonsVoss) ist ein etabliertes Schließsystem mit elektronischen Zylindern und App-Zugang. Es wurde ernsthaft geprüft — insbesondere für Kellerräume.
+
+| Kriterium | Bewertung |
+|-----------|-----------|
+| Technik | Elektronischer Zylinder innen und außen; funktioniert grundsätzlich an unseren Türen |
+| Anny-Integration | Vorhanden (Professional) |
+| **Laufende Kosten** | **Kritisch:** Abo-Modell pro Nutzer bzw. Berechtigung; bei der **Haustür mit ~200 potenziellen Nutzern** entstehen **deutlich höhere Jahreskosten** als bei Nuki (0 € Nutzer-Abo) |
+| Zylinder | Kompletter **Zylinderersatz** nötig — kein Nachrüsten am bestehenden Schlüssel wie bei Nuki |
+| Haustür vs. Keller | Für **wenige Nutzer** (einzelner Kellerraum) wirtschaftlich denkbar; **ein System für alle Türen** inkl. Haustür wird für unser Haus **zu teuer** |
+| Gäste / PIN | App-basiert; Keypad-Logik anders als Nuki — Gäste-UX über Anny möglich, Kostennachteil bleibt |
+| Fluchtweg / Klinke | Zylinderlösung; Klinke innen muss je nach Produktvariante geprüft werden — nicht automatisch besser als Nuki |
+
+**Fazit:** KleverKey ist für **kleine Nutzerkreise** (z. B. ein Kellerraum mit wenigen Berechtigten) eine solide Option. Für unser Szenario — **Haustür + mehrere buchbare Räume + viele Bewohner** — übersteigen die **laufenden Kosten** den Nutzen. Ein **Mischsystem** (KleverKey Keller + Nuki Haustür) würde Gästen **zwei Apps/Systeme** bedeuten und die Verwaltung verkomplizieren.
+
+---
+
+#### UniFi Door Access (Ubiquiti)
+
+UniFi Door Access ist Teil des Ubiquiti-Ökosystems und richtet sich an **Gewerbe, Schulen und größere Anlagen** mit zentraler Zutrittskontrolle.
+
+| Kriterium | Bewertung |
+|-----------|-----------|
+| Zielgruppe | **Enterprise / Facility Management** — nicht auf Wohnhäuser mit Ehrenamts-Betrieb ausgelegt |
+| Installation | **Verkabelung** (PoE) zu Türlesern und Türsteuerung; **kein** einfacher Euro-Zylinder-Nachrüstsatz |
+| Hardwarekosten | Access Hub, Leser pro Tür, ggf. Türöffner/Magnete — **deutlich höhere Einmalkosten** als Nuki pro Tür |
+| Laufende Kosten | Kein klassisches Nutzer-Abo, aber **Abhängigkeit vom UniFi-Ökosystem** (Controller, ggf. Cloud Key) |
+| DIY | Montage und Inbetriebnahme **überwiegend Fachbetrieb**; nicht vergleichbar mit Nuki-Selbstmontage am Zylinder |
+| Fluchtweg / Klinke | Typisch: **elektrischer Türöffner / Magnet** — **nicht** kompatibel mit unserer Anforderung, die **bestehende Klinke innen** und den **mechanischen Schlüssel** zu behalten |
+| Anny-Integration | **Keine native Anny-Anbindung** — müsste über Umwege (API, manuelle Freigaben) gelöst werden |
+| Skalierung 200 Nutzer | Identity-Management stark — aber für unseren Use Case **überdimensioniert** |
+
+**Fazit:** UniFi Door Access gewinnt dort, wo bereits eine **UniFi-Infrastruktur**, **Verkabelung** und ein **Facility-Team** vorhanden sind. In einem **Münchner Wohnhaus** mit **Zylinder-Türen**, **Fluchtwegen** und **Anny-Buchungen** ist es **technisch unpassend**, **teuer in der Installation** und **schlechter für Gäste ohne eigenes UniFi-Konto**.
+
+---
+
+#### dormakaba Exivo
+
+Exivo ist die „Smart Lock“-Linie von dormakaba (ehem. Kaba) für Wohn- und Kleinobjekte.
+
+| Kriterium | Bewertung |
+|-----------|-----------|
+| Preistransparenz | **Keine öffentlichen Festpreise** — Angebot nur über Partner/Fachhandel |
+| Installation | **Ausschließlich autorisierte Partner** — widerspricht DIY-Wunsch |
+| Betriebsmodell | **Monatliche Service- und Lizenzkosten** pro Objekt/Tür |
+| Anny | Integration nicht im Fokus unserer Anny-Professional-Planung |
+| Marke / Qualität | Hochwertig, aber **Premium-Preisniveau** ohne klare Kostenkontrolle für den Verein |
+
+**Fazit:** Für einen **kostenbewussten Bewohnerverein** ohne festen Schließer-Vertrag ist Exivo **wirtschaftlich und organisatorisch unattraktiv**.
+
+---
+
+#### EVVA AirKey
+
+AirKey ist ein **hybrides** System: elektronische Schlüssel (KeyCredits) plus optional App; typisch für **Mehrfamilienhäuser** mit Verwaltung.
+
+| Kriterium | Bewertung |
+|-----------|-----------|
+| Installation | **Fachbetrieb** für Zylinder und Programmierung |
+| Laufende Kosten | **Jährliche KeyCredits** (elektronische Schlüssel) — Kosten skalieren mit Anzahl ausgegebener Schlüssel/Berechtigungen |
+| Haustür + Keller | Sinnvoll als **einheitliches Haus-System** — aber dann **kein** einfacher Anny-Nuki-Pfad für **zeitlich begrenzte Gast-PINs** an mehreren Kellertüren |
+| Gäste / Kurzzeit | AirKey ist auf **dauerhafte Berechtigungen** ausgelegt; **Buchungs-PINs für Fremdgäste** sind über Anny **nicht** vergleichbar mit Nuki integriert |
+| Zweitsystem | Nur an der Haustür → **zwei Welten** (AirKey + etwas für Keller); überall AirKey → **hohe Einrichtungs- und Credit-Kosten** |
+
+**Fazit:** AirKey passt zu **verwalteten MFH** mit **festen Mieter-Schließrechten**. Für **öffentliche Kurzzeitbuchungen über Anny** ist Nuki **einfacher und günstiger**.
+
+---
+
+#### Tapkey
+
+Tapkey (dormakaba-Ökosystem) nutzt **Smart Locks / Zylinder** mit **Nutzerpaketen** in der Cloud.
+
+| Kriterium | Bewertung |
+|-----------|-----------|
+| Laufende Kosten | **Pakete nach Anzahl Nutzer** — bei vielen Berechtigten (Haustür-Szenario) **ähnliche Problematik wie KleverKey** |
+| Anny | Integration möglich, aber **Kostenfrage** bleibt |
+| Hardware | Zylinderbasiert; **kein** Motor am vorhandenen Schlüssel wie Nuki |
+| DIY | Teilweise Selbstmontage möglich; **Cloud-Nutzerlizenzen** sind der Kostentreiber |
+
+**Fazit:** Tapkey ist technisch brauchbar, scheitert aber an der **Kostenlogik pro Nutzer** für ein Haus mit **~200 Bewohnern** plus Gästen.
+
+---
+
+#### Salto KS / Salto Space
+
+Salto ist Marktführer im **Hotel- und Gewerbebereich** (Salto KS = Cloud, Salto Space = lokal).
+
+| Kriterium | Bewertung |
+|-----------|-----------|
+| Zielgruppe | **Hotels, Büros, große Objekte** — nicht Wohnhaus-Vereine |
+| Infrastruktur | Türbeschläge, Encoder, Management-Software — **hohe Einstiegskosten** |
+| Betrieb | Professionelle Administration; **kein Ehrenamts-Maßstab** |
+| Anny | **Keine** praktikable Standard-Integration für unser Buchungsmodell |
+| Wohnhaus | **Overkill** — Funktionsumfang und Preis für 5 Türen nicht gerechtfertigt |
+
+**Fazit:** Salto wäre die **falsche Produktkategorie** — vergleichbar mit UniFi: **richtig für Gewerbe, falsch für unser Projekt**.
+
+---
+
+#### Vergleichsmatrix (Auszug)
+
+| Kriterium | **Nuki (gewählt)** | KleverKey | UniFi Access | Exivo | AirKey | Tapkey | Salto |
+|-----------|-------------------|-----------|--------------|-------|--------|--------|-------|
+| Einmalkosten (5 Türen) | ~2.200 € | höher (Zylinder) | deutlich höher | unklar | höher | mittel–hoch | sehr hoch |
+| Laufende Nutzerkosten | **0 €** | **hoch** (~200 User) | gering* | monatlich | KeyCredits | Pakete | Vertrag |
+| Anny-Integration | **nativ** | ja | nein | unklar | eingeschränkt | ja | nein |
+| DIY-Montage | **ja** | eingeschränkt | nein | nein | nein | teilweise | nein |
+| Bestehender Zylinder/Schlüssel | **ja** | nein (Tausch) | nein | nein | nein | nein | nein |
+| Klinke innen / Fluchtweg | **ja**† | prüfen | problematisch | prüfen | prüfen | prüfen | prüfen |
+| Gast-PIN zeitlich begrenzt | **ja** | über App | umständlich | umständlich | schwierig | ja | nein |
+
+\* UniFi: keine Nutzer-Abo, aber Infrastruktur- und Installationskosten.  
+† Nuki: Klinke bleibt; Not- und Gefahrenzylinder vorausgesetzt; Freigabe Eigentümer nötig.
+
+**Gesamtfazit:** **Nuki** ist für unser Haus das **einzige** geprüfte System, das **Anny-native Buchungs-PINs**, **keine laufenden Nutzergebühren**, **Zylinder-Nachrüstung ohne Schließer**, **DIY** und **mechanische Schlüssel parallel** vereint. KleverKey und Tapkey scheitern vor allem an **laufenden Kosten bei vielen Berechtigungen**; UniFi und Salto an **falscher Produktkategorie und Installation**; Exivo und AirKey an **Fachbetrieb, Intransparenz** bzw. **Mischsystem-Problemen** mit Anny-Gästen.
 
 ---
 

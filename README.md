@@ -37,6 +37,13 @@ pytest
 | `LOCK_BASE_URL` | Base URL of the door lock REST gateway |
 | `LOCK_API_KEY` | Lock gateway API key |
 
+## Zutrittskontrolle (Hardware-Diskussion)
+
+Entscheidungsunterlagen Nuki vs. UniFi Access (Anny, 5 Gemeinschaftstüren, Kosten, DIY, Versicherung, PoE):
+
+- [`docs/nuki-vs-unifi.md`](docs/nuki-vs-unifi.md) — Entscheidungsgrundlage
+- [`docs/gespraechsprotokoll-zutritt-nuki-unifi.md`](docs/gespraechsprotokoll-zutritt-nuki-unifi.md) — vollständiges Gesprächsprotokoll
+
 ## Architecture
 
 ```

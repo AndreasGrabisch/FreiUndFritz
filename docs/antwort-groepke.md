@@ -17,20 +17,22 @@ Nuki ist ein nachrüstbares Smart Lock für den Innenbeschlag/Zylinder (Bluetoot
 
 Damit wir die Vorhaltung sinnvoll aufnehmen können, wären vor Ort hilfreich:
 
-- Blick in den Verteilerschrank im großen Gemeinschaftsraum und in einen der Edelstahlkästen
-- Typenschild bzw. Spannung des elektrischen Türöffners (z. B. 12 V DC / 24 V AC)
-- kurzer Blick auf Schloss/Panikbeschlag und Zylinder (ohne Demontage)
-- Klärung, welche der vier Türen laut Brandschutznachweis im Rettungsweg liegen
+- Blick in den Verteilerschrank **UV SB −1-03 Gem.** im großen Gemeinschaftsraum und in einen Edelstahlkasten (**200 × 200 × 80 mm**)
+- Typenschild bzw. Spannung des elektrischen Türöffners (SPA-Kreis)
+- Schloss/Panik an den **T30-RS**-Türen Musik, Kreativ, Veranstaltung
+- Kellergangtür **SB_-1_07**: Öffnen von innen bei Abschluss von außen vorführen
+
+Die Ausschnitte und das Zugangsschema haben wir so gelesen: Musik, Kreativ und VR-Innentür = **1. RW** (T30-RS in den Kellerflur); **2. RW** des 122-m²-Raums = Lichthof-Türen (dort keine Zutrittskontrolle); Kellergang **SB_-1_07** = kein Fluchtweg; Apartment **NH_5_02** = 1. RW der Wohnung, 2. RW Hubrettung. Bitte korrigieren Sie uns, falls das nicht stimmt.
 
 Zur Versicherung: Eine produktbezogene Freigabe „Nuki“ oder „UniFi“ brauchen wir nicht. Bitte klären Sie mit **Wohngebäudeversicherung und Gebäude-Haftpflicht** der Postbaugenossenschaft (und dem Brandschutzplaner) schriftlich:
 
 1. Anzeigepflicht vor Montage (Leser/Keypad außen, Ansteuerung des vorhandenen Türöffners bzw. Aufsatz am Zylinder).
-2. Variante A: Fachbetrieb steuert den vorhandenen elektrischen Türöffner, Panik/Klinke von innen unverändert. Zulässig? Müssen Öffner im Stromausfall oder Brandfall entriegeln, oder darf stromlos von außen verriegelt bleiben? Montage nur durch Elektrofachbetrieb — reicht das der Police?
-3. Variante B: batteriebetriebenes Smart Lock am Profilzylinder plus Keypad außen, ohne Eingriff in die Hauselektrik. An Gemeinschafts- und möglichen Rettungswegtüren zulässig oder ausgeschlossen? Einfluss des sichtbaren Keypads auf die Einbruchdeckung?
-4. Welche der Türen im Brandschutz-Ausschnitt UG/DG sind Rettungsweg — einschließlich Glastüren Veranstaltungsraum zum Hof (dort planen wir **keine** elektrische Verriegelung)?
-5. Kellergangtür: Sie schreiben, sie sei kein Fluchtweg und richtig ausgeführt. Vor Ort wirkt es so, als sei sie nach Abschluss von außen von innen nicht zu öffnen. Bitte das Schloss vorführen und mit Haftpflicht/Brandschutz klären, ob Personen in den Aufenthaltsräumen jederzeit ohne Schlüssel nach draußen kommen.
-6. Zeitlich begrenzter Gästezutritt per Buchungssystem (PIN/App): ändert das etwas an Obliegenheiten zur Schließmittel-Sorgfalt?
-7. Großer Gemeinschaftsraum bis 100 Personen: zusätzliche Anforderungen an die Türen?
+2. Variante A: Fachbetrieb steuert den vorhandenen elektrischen Türöffner an den fünf vorverdrahteten Türen, Panik/Klinke von innen unverändert — auch an **T30-RS**. Zulässig? Stromlos-Verhalten des Öffners? Fachbetrieb ausreichend?
+3. Variante B: Smart Lock am Zylinder plus Keypad. Am Apartment NH_5_02 vs. an den UG-Rettungswegtüren — getrennt zulässig oder ausgeschlossen?
+4. Lichthof-Türen des Veranstaltungsraums bleiben ohne elektrische Verriegelung — einverstanden?
+5. Kellergangtür SB_-1_07: kein Fluchtweg laut Ihrer Mail. Vor Ort wirkt sie nach Abschluss von außen von innen nicht öffenbar. Bitte vorführen und für die Flur-Haftpflicht klären.
+6. Zeitlich begrenzter Gästezutritt per Buchungssystem (PIN/App): Schließmittel-Sorgfalt?
+7. 122 m² / max. 100 Personen: weitere Auflagen, solange der **1. RW** über das Treppenhaus frei ist und die Hof-Treppen baustellenbedingt gesperrt sind?
 
 Eine andere Lösung als die Vorhaltung bleibt für uns möglich; wir wollen zuerst prüfen, ob wir die vorhandene Infrastruktur nutzen können.
 

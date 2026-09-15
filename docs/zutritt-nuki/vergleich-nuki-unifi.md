@@ -6,6 +6,8 @@ Stand: September 2026. Vergleich für fünf Gemeinschaftstüren (vier Keller, ei
 
 **Hinweis:** Dieses Dokument stammt aus einer **internen Diskussion** (u. a. ~56 Wohnungen / ~140 Personen). Die **vereinsscharfe Planung** nutzt **ca. 50 Parteien**, **Pilot nur Apartment**, **Kellergang als künftiger Gäste-Hauptweg**. Die **Projektentscheidung** ist **Nuki**; UniFi bleibt als dokumentierte Alternative.
 
+Aktualisierte Entscheidungsgrundlage (Versicherung Kurzfassung nach Merge): [../nuki-vs-unifi.md](../nuki-vs-unifi.md)
+
 Keine neutrale Empfehlung in diesem Dokument — Ziel ist, Kosten, DIY, Versicherung, WLAN, Akku, Anny, 200er-Limit, PoE und Keypad an einem Ort zu haben.
 
 ---

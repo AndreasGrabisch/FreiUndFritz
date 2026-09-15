@@ -2,6 +2,8 @@
 
 Die Versicherung erteilt in der Regel **keine „Installationserlaubnis“** wie die Hausverwaltung. Entscheidend sind: **Anzeigepflicht**, **laufender Versicherungsschutz** und **Haftung** bei Schäden.
 
+**Vollständige Fassung** (Postbau/Gröpke, UniFi/NAV, Kellergang-Einsperrung, Textbausteine): [../versicherung-nuki-unifi.md](../versicherung-nuki-unifi.md)
+
 → [Checkliste](checkliste.md) · [Mail Hausverwaltung](mail-hausverwaltung.md)
 
 ---

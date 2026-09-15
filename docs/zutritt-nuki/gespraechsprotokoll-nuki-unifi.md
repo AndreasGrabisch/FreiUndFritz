@@ -2,6 +2,8 @@
 
 Vollständige Zusammenfassung der Diskussion (Cloud-Agent / Verwaltung), ergänzend zu [vergleich-nuki-unifi.md](vergleich-nuki-unifi.md). Stand: September 2026.
 
+Aktualisierte Kopie im Docs-Root: [../gespraechsprotokoll-zutritt-nuki-unifi.md](../gespraechsprotokoll-zutritt-nuki-unifi.md)
+
 → [Übersicht Zutritt-Nuki](README.md) · [Projektplan](projektplan.md)
 
 ---

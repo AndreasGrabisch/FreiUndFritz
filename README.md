@@ -26,7 +26,7 @@ pyproject.toml      – Project metadata & dependencies
 
 ## Documentation (Nuki / Anny rollout)
 
-Planning documents for the residents' association (German): **[docs/zutritt-nuki/](docs/zutritt-nuki/)** — project plan, checklist, mail template to property management, legal/insurance notes, system comparisons.
+Planning documents for the residents' association (German): **[docs/](docs/README.md)** — Projektplan Nuki, Vergleich UniFi, Versicherung, Antwort Gröpke.
 
 ## Getting Started
 

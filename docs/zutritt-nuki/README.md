@@ -34,7 +34,14 @@ Dieser Ordner bündelt alle Unterlagen aus Planung, Chat und technischer Recherc
 
 ### Versicherung
 
-- [Versicherungen — wen fragen?](versicherung.md)
+- Kurz: [Versicherungen — wen fragen?](versicherung.md)
+- Ausführlich (Genossenschaft vs. Verein, UniFi/NAV, je Tür): [../versicherung-nuki-unifi.md](../versicherung-nuki-unifi.md)
+
+### Postbau / Gröpke
+
+- [Prüfplan Vorhaltung](../plan-zutritt-nuki-unifi.md)
+- [Antwortentwurf Gröpke](../antwort-groepke.md)
+- [Nuki vs. UniFi, aktuelle Fassung](../nuki-vs-unifi.md)
 
 ---
 

@@ -8,10 +8,10 @@ Kanonische Fakten für alle Unterlagen. **Stand:** Planung 2026.
 
 | Merkmal | Wert |
 |---------|------|
-| **Standort** | München, Bayern |
+| **Standort** | München, Bayern — **Arnulfstr. 55**, Haus **Neuhausen**, Kreativquartier (Projekt WUP, 56 WE) |
 | **Träger** | Postbaugenossenschaft (über Hausverwaltung) |
 | **Entscheidung Zutritt** | **Bewohnerverein** (nicht WEG-Eigentümerbeschluss) |
-| **Parteien** | ca. **50** (Wohnungen/Haushalte) |
+| **Parteien** | **56 WE** laut Zugangsschema / Bauschriftfeld (Planungstexte nannten zuvor ca. 50) |
 | **Buchungssystem** | **Anny** (bereits gekauft/im Einsatz) |
 | **Geplante Technik** | **Nuki Smart Lock Pro** + **Keypad**, Anny-Integration |
 | **Software im Repo** | [`freiundfritz`](../../freiundfritz/) — Anny + Door Lock (Nuki Web API) |
@@ -20,16 +20,19 @@ Kanonische Fakten für alle Unterlagen. **Stand:** Planung 2026.
 
 ---
 
-## Fünf relevante Türen
+## Fünf verdrahtete Türen (Zugangsschema + Brandschutz)
 
-| Tür | Lage | Rolle | Nuki-Planung |
-|-----|------|-------|--------------|
-| **Haustür** | Hauseingang | Bewohner, derzeit auch Gäste | Phase 2 |
-| **VR — Glastüren** | Keller → Hof | Rettungsweg / Notausgang | **Kein Nuki — ausgeschlossen** |
-| **VR — Kellergang** | Keller → Kellergang/Außen | **Künftiger Hauptgästezugang** | Phase 3, nur nach Klärung |
-| **Musikraum** | Keller | Buchbar | Phase 2, Zylinder-Test offen |
-| **Kreativraum** | Keller | Buchbar | Phase 2, Zylinder-Test offen |
-| **Apartment** | Dach | Wichtigste Buchung | **Phase 1 Pilot** |
+Quellen: [analyse-fluchtwege.md](analyse-fluchtwege.md), [anlagen/Zugangsschema_WUP.pdf](anlagen/Zugangsschema_WUP.pdf).
+
+| Tür | Bau-ID | Lage | Rettungsweg | Nuki-Planung |
+|-----|--------|------|-------------|--------------|
+| **Apartment** | NH_5_02 | 5. OG, 85,34 m² | **1. RW** der Wohnung zur Treppe; **2. RW** Fenster/Hubrettung | **Phase 1 Pilot** |
+| **Musikraum** | SB_-1_01_G | UG, Hobby, T30-RS | **1. RW** in den Kellerflur | Phase 2, Zylinder + T30-RS offen |
+| **Kreativraum/Werkraum** | SB_-1_02_G | UG, Hobby, T30-RS | **1. RW** in den Kellerflur | Phase 2, wie Musik |
+| **Veranstaltung** | SB_-1_03_G | UG, NE_1_04 122,74 m², max. 100 Personen | **1. RW** T30-RS in den Flur; **2. RW** Glastür Lichthof | Innentür Phase 3 nur über Öffner/Klärung |
+| **Flur außen (Kellergang)** | SB_-1_07 | UG → Hof | **kein** Fluchtweg (Gröpke + Plan: 2. RW des Saals ist die Lichthof-Tür) | Phase 3 Gästezugang, Zylinder/Einsperrung |
+| **Glastüren VR → Lichthof** | — | „Tür erforderlich“, 2. RW | **Rettungsweg** | **Kein Nuki, kein UniFi** |
+| **Haustür EG** | — | nicht im Zugangsschema | nicht auf diesen Ausschnitten | nicht vorverdrahtet |
 
 ---
 

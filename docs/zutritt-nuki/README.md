@@ -37,8 +37,9 @@ Dieser Ordner bündelt alle Unterlagen aus Planung, Chat und technischer Recherc
 - Kurz: [Versicherungen — wen fragen?](versicherung.md)
 - Ausführlich (Genossenschaft vs. Verein, UniFi/NAV, je Tür): [../versicherung-nuki-unifi.md](../versicherung-nuki-unifi.md)
 
-### Postbau / Gröpke
+### Postbau / Gröpke / Brandschutz
 
+- [Analyse Fluchtwege + Schema](analyse-fluchtwege.md)
 - [Prüfplan Vorhaltung](../plan-zutritt-nuki-unifi.md)
 - [Antwortentwurf Gröpke](../antwort-groepke.md)
 - [Nuki vs. UniFi, aktuelle Fassung](../nuki-vs-unifi.md)
@@ -49,7 +50,8 @@ Dieser Ordner bündelt alle Unterlagen aus Planung, Chat und technischer Recherc
 
 | Datei | Zweck |
 |-------|--------|
-| [kontext-gebaeude.md](kontext-gebaeude.md) | 50 Parteien, fünf Türen, Kellergang, VR, Baustelle |
+| [analyse-fluchtwege.md](analyse-fluchtwege.md) | Brandschutz UG/DG + Zugangsschema, Tür-IDs |
+| [kontext-gebaeude.md](kontext-gebaeude.md) | 56 WE, fünf verdrahtete Türen, Kellergang, VR |
 | [projektplan.md](projektplan.md) | Gesamtplan, Phasen, Kosten, Risiken, Beschlussvorlagen |
 | [checkliste.md](checkliste.md) | Abhakliste vor Montage / Ausbau |
 | [mail-hausverwaltung.md](mail-hausverwaltung.md) | Anfrage Fluchtweg, Zylinder, Zustimmung |

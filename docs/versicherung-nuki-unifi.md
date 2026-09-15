@@ -43,11 +43,11 @@ Kurzbeschreibung, nicht Marken-Pitch:
 
 | Tür | Lage / Rolle | Brandschutz / Beobachtung im Repo | Versicherung |
 |---|---|---|---|
-| **Glastüren VR → Hof** | Rettungsweg | ausdrücklich Rettungsweg; **kein** Smart Lock, keine elektrische Verriegelung | nicht zur Freigabe anbieten; nur bestätigen lassen, dass elektronische Verriegelung ausgeschlossen bleibt |
-| **Kellergang → Hof** | künftiger Gäste-Haupteingang; Vorhaltung; Baustelle Nachbargrund | Postbau: **kein Fluchtweg**, Tür „richtig ausgeführt“. Verein vor Ort: von außen abschließbar, innen Klinke, Schlüssel innen nicht drehbar, **von innen nicht zu öffnen wenn von außen zugesperrt** | **höchste Priorität Haftpflicht**, unabhängig von Nuki/UniFi. Einsperrgefahr in Aufenthaltsräumen. Nuki im Ist-Zustand technisch oft unmöglich. UniFi am Summer ändert die Klinke nicht, hebt aber ein von außen vorgeschlossenes Schloss nicht auf |
-| **Musikraum, Kreativraum, weiterer Keller** | buchbar; Ethernet/Summer | Rettungswegstatus laut Brandschutz-Ausschnitten UG klären | Gebäude + Genossenschafts-Haftpflicht vor Montage |
-| **5. Stock / Apartment Dach** | Apartment = Pilot, wichtigste Anny-Ressource | normale Wohnungstür, Referenz-Nuki im Haus | Gebäude: zählt die Tür zum Gebäudebestand? Verein: Gästezugang Apartment |
-| **Haustür** | Bewohner, heute auch Gäste | Rettungswegstatus offen | Gebäudeversicherung (Keypad/Leser außen am Haupteingang) |
+| **Glastüren VR → Lichthof** | 2. RW des 122-m²-Raums | nicht im Schema; **kein** Smart Lock | nur bestätigen: keine elektrische Verriegelung |
+| **Kellergang Flur außen SB_-1_07** | Gäste-Haupteingang, Vorhaltung | **kein** Fluchtweg | Einsperrung im Flur / Klinke von innen |
+| **Musik / Kreativ / VR-Innentür** | T30-RS, **1. RW** in den Kellerflur | Vorhaltung am Öffner | Feuerschutztür-Zulassung, Panik, Fachbetrieb bei UniFi |
+| **Apartment NH_5_02** | 1. RW Wohnung; 2. RW Hubrettung | Vorhaltung + Pilot | Keypad/Öffner anzeigen |
+| **Haustür EG** | nicht im Schema | Rettungswegstatus offen | erst wenn überhaupt geplant |
 
 Pilot Apartment darf die Klärung Keller **nicht ersetzen**, sobald Gemeinschaftstüren dran sind.
 
@@ -59,7 +59,7 @@ An **Gebäudeversicherung und Gebäude-Haftpflicht** (über HV/Gröpke):
 
 1. Müssen Montage und sichtbares Keypad/Leser **vorher angezeigt** werden, oder reicht Information zur Akte?
 2. Ändert elektronischer Zutritt die **Einbruchdeckung** (auch ohne Aufbruchspuren — Hausrat/Gebäude kann streitig sein)?
-3. Bleibt die **Panik / Klinke von innen ohne Strom, Akku und App** zwingend, und welche Türen sind Rettungsweg laut Nachweis UG/DG?
+3. Bleibt die **Panik / Klinke von innen ohne Strom, Akku und App** uneingeschränkt — insbesondere an den **T30-RS-Türen** Musik, Kreativ, VR-Innentür (jeweils 1. RW) und an der Apartmenttür NH_5_02?
 4. Ist der **Ist-Zustand Kellergang** (von außen zu, von innen ggf. nicht auf) mit der Police und dem Brandschutznachweis vereinbar — **vor** jeder Nachrüstung?
 5. Gäste mit **zeitlich begrenzter PIN/App** (Anny): Obliegenheit „Schlüssel nur an bekannte Personen“ verletzt?
 6. Fernöffnen (Remote Open) und wechselnder **Hauscode** (~140 Bewohner, Nuki-Limit 200 Zugänge/Schloss): reicht das als Schließmittel-Sorgfalt, oder sind personenbezogene Codes nötig (Protokoll „wer war drin“)?

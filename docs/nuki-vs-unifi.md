@@ -199,3 +199,32 @@ Fluchtwege müssen von innen ohne Schlüssel zu öffnen sein. Ob die Raumtüren 
 5. Anny: wie viele gleichzeitige künftige Buchungszugänge über 5 Räume?
 
 Ohne 1–2 bleiben WLAN- und Brandschutzkosten Spekulation. Der Fachbetrieb hat bei UniFi recht mit Kosten **pro Tür**; das ist der Preis für den Eingriff ins elektrische System, kein Argument gegen oder für eine Marke.
+
+---
+
+## Wartung (Selbst vs. Fachbetrieb)
+
+| | Nuki (DIY) | UniFi |
+|---|---|---|
+| Laufender Aufwand | Akku-Ladekalender (~1 Schloss/Monat bei 5 Türen), Keypad-Batterien | Konsole/Leser-Firmware, keine Tür-Akkus |
+| Defekt tauschen | Schloss/Keypad selbst | Leser/Hub oft mit Elektriker |
+| Fachbetrieb | optional (Zylinder, Beschlag) | für Einbau und Elektrik-Defekte üblich |
+
+---
+
+## Versicherung — Kurzfassung
+
+Versicherer geben in der Regel **keine vorherige Freigabe** für DIY oder Fachbetrieb. Entscheidend ist der **Schadenfall**:
+
+- **Nuki:** kein Eingriff in die Hauselektrik; Keypad außen der Gebäudeversicherung kurz schriftlich nennen.
+- **UniFi:** nur mit eingetragenem Elektrobetrieb und Prüf-/Montagedokumentation vertretbar; DIY am Summer-Kreis: hohes Risiko für Leistungsverweigerung.
+- Smart Lock / digitaler Zugang ohne Einbruchspuren: Hausrat kann streitig sein (unabhängig vom Hersteller).
+
+---
+
+## Dokumentierte Vorgehensweise (aus der Diskussion)
+
+- **Nuki:** Selbsteinbau (Pro + Keypad) vorgesehen.
+- **UniFi:** kein Selbsteinbau am Summer/PoE; Fachbetrieb trotz vorhandener Kabel und Summer an den Türen.
+
+Vollständiges Gesprächsprotokoll: `docs/gespraechsprotokoll-zutritt-nuki-unifi.md`.

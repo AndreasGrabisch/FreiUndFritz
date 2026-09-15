@@ -2,6 +2,8 @@
 
 **Version:** 1.3 · **August 2026** · Zur Entscheidung: Bewohnerverein · München, Bayern
 
+→ [Übersicht aller Unterlagen](README.md) · Vollständige Checkliste: [checkliste.md](checkliste.md)
+
 ---
 
 ## 1. Zusammenfassung für die Entscheidung
@@ -146,12 +148,14 @@ Im Pilot wird **nur die Apartment-Tür** elektrifiziert — **nicht** Haustür o
 
 ## 5. Warum nicht die Alternativen?
 
+Ausführlich: [systemvergleich-alternativen.md](systemvergleich-alternativen.md) und [vergleich-nuki-unifi.md](vergleich-nuki-unifi.md).
+
 Es wurden mehrere Systeme geprüft. Für unser Haus mit **ca. 50 Parteien**, **Anny-Buchungen**, **DIY-Ansatz** und **Zylinder-Türen** scheitern die Alternativen vor allem an **Kosten**, **Integration** oder **falscher Produktkategorie**.
 
 | System | Ausführliche Begründung der Ablehnung |
 |--------|--------------------------------------|
 | **KleverKey** | Elektronische Zylinder mit App-Zugang; Anny-Integration vorhanden. **Aber:** Abo-Modell pro Nutzer/Berechtigung. An der **Haustür** mit **50 Parteien** und vielen Gästen laufen die **Jahreskosten** deutlich höher als bei Nuki (0 €). Zudem **kompletter Zylinderersatz** — kein Nachrüsten am bestehenden Schlüssel. Für einzelne Kellerräume mit wenigen Nutzern denkbar; als **Einheitssystem für das ganze Haus** wirtschaftlich unattraktiv. |
-| **UniFi Door Access** | Professionelles Zutrittssystem von Ubiquiti für **Gewerbe** und große Anlagen. Erfordert **Verkabelung (PoE)**, Türleser, Controller — **kein** Euro-Zylinder-Nachrüstsatz. **Hohe Einmalkosten**, **keine native Anny-Integration**, typischerweise **Türöffner/Magnete** statt Klinke — **unpassend für Fluchtwege** mit bestehender Klinke. Sinnvoll nur bei bestehender UniFi-Infrastruktur und Facility-Team — **Overkill** für unseren Verein. |
+| **UniFi Door Access** | Gewerbe-System (PoE, Leser, Summer-Anbindung); **Anny nativ**, aber **Fachbetrieb** (NAV), **hohe Gesamtkosten**, kein Zylinder-Nachrüstsatz wie Nuki Pro — für unseren **DIY-Verein** und Kellergang-/Fluchtweg-Themen siehe [vergleich-nuki-unifi.md](vergleich-nuki-unifi.md). |
 | **Tapkey** | Cloud-Zylinder mit **Nutzerpaketen**; Kosten skalieren mit Anzahl Berechtigungen — **ähnliches Problem wie KleverKey** bei vielen Parteien und Gästen. |
 | **EVVA AirKey** | Hybridsystem mit elektronischen Schlüsseln (KeyCredits), Fachbetrieb-Montage. Gut für **verwaltete MFH** mit **dauerhaften** Schließrechten; **schlecht** für **kurzzeitige Gast-PINs** über Anny. Würde ein **Zweitsystem** neben Anny-Nuki bedeuten oder hohe Credit-Kosten. |
 | **dormakaba Exivo** | Premium-Smart-Lock-Linie; **keine transparenten Preise**, nur autorisierte Partner, **monatliches Service-Abo** — für einen kostenbewussten Verein ohne Schließer-Vertrag ungeeignet. |
@@ -165,7 +169,7 @@ Es wurden mehrere Systeme geprüft. Für unser Haus mit **ca. 50 Parteien**, **A
 
 | Phase | Dauer | Inhalt im Detail |
 |-------|-------|------------------|
-| **0 — Klärung** | Woche 1–3 (parallel zum Pilot-Start möglich) | Checkliste Anhang abarbeiten: Postbaugenossenschaft ansprechen, Fluchtwegplan, Versicherung, VR-Rechtliches, Zylinder-Tests Keller, WLAN-Messungen, Projektgruppe benennen |
+| **0 — Klärung** | Woche 1–3 (parallel zum Pilot-Start möglich) | [Checkliste](checkliste.md) abarbeiten: Postbaugenossenschaft, Fluchtwegplan, Versicherung, VR-Rechtliches, Zylinder-Tests Keller, WLAN, Projektgruppe |
 | **1 — Pilot** | Woche 2–6 | **Nur Apartment:** Nuki + Keypad kaufen und montieren, Internet/WLAN sicherstellen, Anny-Regel anlegen, interne und externe Testbuchungen, Gästeanleitung (Hinweis: Hauszugang weiterhin manuell), 2 Wochen Probebetrieb |
 | **2 — Ausbau** | Woche 5–8 | Nach positivem Pilot und **erneutem Vereinsbeschluss:** Haustür, Musikraum, Kreativraum — jeweils nur nach bestandenem Türtest |
 | **3 — VR + Kellergang** | nach Freigabe | Nur **Kellergang-Tür** (nicht Glastüren); nur wenn Zylinder, Fluchtweg, Sicherheit und **VR-Rechtliches** geklärt; Baustelle am Kellergang frei |
@@ -209,7 +213,7 @@ Es wurden mehrere Systeme geprüft. Für unser Haus mit **ca. 50 Parteien**, **A
 | **Art. 19 LStVG** | Bei **öffentlichen** Anny-Buchungen (VR, ggf. andere Räume): **Anzeige beim KVR München** — unabhängig von Nuki. |
 | **VR als Veranstaltungsort** | Prüfen, ob Nutzungsänderung oder Versammlungsstättenrecht greift; **vor** intensivem öffentlichen VR-Betrieb und **vor** Phase 3 klären. |
 | **Fluchtweg / Smart Lock** | Keine Montage ohne erfüllte Checkliste; Glastüren ausgenommen. |
-| **Versicherung** | Haftpflicht / Gebäudeversicherung informieren (Smart Lock, Vermietung Apartment). |
+| **Versicherung** | Siehe [versicherung.md](versicherung.md) (Vereins-Haftpflicht, Gebäude der Genossenschaft). |
 | **DSGVO** | Gästedaten in Anny/Nuki; Auftragsverarbeitung und Datenschutzhinweise in Buchungsablauf. |
 
 ---
@@ -257,62 +261,9 @@ Es wurden mehrere Systeme geprüft. Für unser Haus mit **ca. 50 Parteien**, **A
 
 ---
 
-## Anhang — Checkliste vor Montage / Ausbau
+## Anhang — Checkliste
 
-Die Checkliste wird vom **Verein** beauftragt. Fachliche Stellungnahmen (Fluchtweg, Zylinder) liegen bei der **Postbaugenossenschaft** bzw. ggf. Schließer/Brandschutz.
-
-### Organisation & Freigaben
-
-- [ ] **Beschluss Bewohnerverein** zu Grundsatz, Budget und Phase (Protokoll)
-- [ ] **Abnahme / Zustimmung Postbaugenossenschaft** schriftlich — pro Tür oder als Gesamtkonzept für Zutrittsautomatisierung
-- [ ] **Versicherung** (Haftpflicht, ggf. Gebäude) informiert; Stellungnahme zu Smart Locks und **Vermietung Apartment** eingeholt
-- [ ] **Projektgruppe** benannt: Projektleitung, Technik, Anny-Admin, Stellvertretung — Namen und Kontakt dokumentiert
-- [ ] **Hausordnung / Nutzungsregeln** geprüft, ob Anpassung für elektronischen Zutritt nötig
-
-### Fluchtweg & Sicherheit
-
-- [ ] **Flucht- und Rettungswegplan** bei Postbaugenossenschaft eingesehen; alle betroffenen Türen aufgelistet
-- [ ] **Glastüren Veranstaltungsraum** (Hof): schriftlich bestätigt — **kein Nuki**, keine elektrische Verriegelung
-- [ ] **Kellertür nach draußen** (Kellergang, künftiger Gäste-Hauptweg):
-  - [ ] Zylinder-Typ und Funktion dokumentiert (innen/außen drehbar?)
-  - [ ] **Öffnung von innen** bei Abschluss von außen **getestet** und bewertet
-  - [ ] Stellungnahme Postbaugenossenschaft: Fluchtweg, Einsperrgefahr, Handlungsbedarf
-  - [ ] **Baustellensituation** Nachbargrundstück: wann ist Kellergang wieder als Gästezugang nutzbar?
-- [ ] Bei allen Rettungsweg-Türen: **Not- und Gefahrenfunktion** des Zylinders dokumentiert
-
-### Technik je geplanter Tür
-
-- [ ] **Türtest / Zylinder:** Mit **zweitem Schlüssel** oder Nuki-Kompatibilitätscheck prüfen, ob Schlüssel innen steckend **vom Motor drehbar** wäre
-- [ ] **Nuki-Maße:** Abstand Klinke ≥ 30 mm; Schlüssel innen ≤ 37 × 4 mm; Hochzieh-Drücker-Verhalten notiert
-- [ ] **Internet / WLAN 2,4 GHz** am Montageort gemessen (min. ca. −70 dBm empfohlen); Repeater oder Verstärkung eingeplant
-- [ ] **WLAN-Zugang** für Nuki geklärt (Wohnungs-WLAN Apartment, Gast-Netz, Passwort-Verwaltung)
-- [ ] **Fallback** dokumentiert: mechanischer Schlüssel, manueller Nuki-Knauf, Ansprechpartner bei Störung
-
-### Veranstaltungsraum — Rechtliches
-
-- [ ] **Art. 19 LStVG:** Anzeige beim **KVR München** für öffentliche Vergnügung vorbereitet oder eingereicht (Status: ☐ offen ☐ eingereicht ☐ nicht nötig nach Rücksprache)
-- [ ] **Nutzungsart VR** geklärt: reiner Gemeinschaftsraum vs. **öffentlicher Veranstaltungsort** — Rücksprache Postbaugenossenschaft und ggf. Bauordnung
-- [ ] **Häufigkeit und Art** geplanter Veranstaltungen dokumentiert (Anzahl/Jahr, Eintritt, externe Gäste, Öffnungszeiten)
-- [ ] **Raumgröße** (m²) ermittelt; bei >100 m²: **zweiter Ausgang** / Fluchtwegbreite prüfen
-- [ ] **Buchungsbedingungen und Hausordnung** um VR-Hinweise ergänzt (Fluchtweg, max. Personen, Verhalten bei Alarm)
-- [ ] Entscheidung dokumentiert: **öffentlicher VR-Betrieb** erst nach rechtlicher Klärung
-
-### Pilot Apartment (Phase 1)
-
-- [ ] Technik-Checkliste **nur für Apartment-Tür** vollständig
-- [ ] Hardware beschafft (Lock Pro, Keypad, ggf. Repeater) innerhalb Budget
-- [ ] Montage und Einrichtung in Nuki-App; Test Remote Open und Keypad-PIN
-- [ ] **Anny-Regel** angelegt: **nur Apartment-Schloss** (kein Kellergang, keine Haustür)
-- [ ] **Gästeanleitung** in Anny-Bestätigungsmail: Zugang **nur Apartment-Tür**; **Hauszugang weiterhin manuell** bis Kellergang frei
-- [ ] Mindestens **2 interne + 2 externe Testbuchungen**; PIN-Zustellung und Zeitfenster geprüft
-- [ ] **2 Wochen Probebetrieb**; Störungen protokolliert
-
-### Nach Pilot (vor Phase 2 und höher)
-
-- [ ] **Schriftlicher Pilotbericht** an Verein (Technik, Gästefeedback, Kosten, Empfehlung)
-- [ ] **Erneuter Vereinsbeschluss** für jede weitere Tür (Haustür, Musikraum, Kreativraum, Kellergang, VR)
-- [ ] Checkliste **für jede neue Tür** von vorn durchgehen
-- [ ] Anny-Regeln erweitern (z. B. Kellergang + Zielraum), sobald technisch und rechtlich möglich
+Die vollständige, abhakbare Checkliste (Organisation, Fluchtweg, Technik, VR-Rechtliches, Pilot, Nach-Pilot) liegt in **[checkliste.md](checkliste.md)**.
 
 ---
 

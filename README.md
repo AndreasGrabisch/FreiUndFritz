@@ -18,8 +18,15 @@ freiundfritz/
   integrations/     – Anny API client & door lock controller
   services/         – AccessService: orchestrates booking checks + lock control
   tests/            – Unit tests
+docs/
+  README.md         – Documentation index
+  zutritt-nuki/     – Nuki + Anny project plan (Bewohnerverein, Munich)
 pyproject.toml      – Project metadata & dependencies
 ```
+
+## Documentation (Nuki / Anny rollout)
+
+Planning documents for the residents' association (German): **[docs/zutritt-nuki/](docs/zutritt-nuki/)** — project plan, checklist, mail template to property management, legal/insurance notes, system comparisons.
 
 ## Getting Started
 

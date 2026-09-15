@@ -1,5 +1,7 @@
 # E-Mail-Entwurf an die Hausverwaltung / Postbaugenossenschaft
 
+→ [Checkliste](checkliste.md) · [Kontext Gebäude](kontext-gebaeude.md) · [Versicherung](versicherung.md)
+
 **Betreff:** Anfrage zur Klärung — geplante elektronische Zutrittskontrolle (Nuki) für buchbare Räume
 
 ---

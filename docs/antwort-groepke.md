@@ -22,13 +22,15 @@ Damit wir die Vorhaltung sinnvoll aufnehmen können, wären vor Ort hilfreich:
 - kurzer Blick auf Schloss/Panikbeschlag und Zylinder (ohne Demontage)
 - Klärung, welche der vier Türen laut Brandschutznachweis im Rettungsweg liegen
 
-Zur Versicherung: Nuki müssen Sie nicht namentlich „freigeben“ lassen. Relevant ist die **Bauart**. Bitte klären Sie mit Versicherung bzw. Brandschutzplaner, ob Folgendes zulässig ist:
+Zur Versicherung: Eine produktbezogene Freigabe „Nuki“ oder „UniFi“ brauchen wir nicht. Bitte klären Sie mit **Wohngebäudeversicherung und Gebäude-Haftpflicht** der Postbaugenossenschaft (und dem Brandschutzplaner) schriftlich:
 
-1. Elektronische Zutrittssteuerung an den Gemeinschaftsraumtüren über den vorhandenen Türöffner, bei unveränderter Panikfunktion von innen.
-2. Ob die Türöffner **stromlos verriegelt** (Fail-Secure, üblich bei Zutritt) bleiben dürfen oder im Alarm-/Stromausfall zwingend entriegeln müssen – insbesondere an Türen im Rettungsweg.
-3. Ob eine Aufschaltung auf die Brandmeldeanlage gefordert ist.
-4. Ob ein nachgerüstetes Smart Lock **am Zylinder** (Batterie, ohne bauaufsichtliche Zulassung als Fluchttürverschluss) an Rettungswegtüren ausgeschlossen ist.
-5. Nutzung des großen Gemeinschaftsraums bis 100 Personen: ändert sich dadurch etwas an den Anforderungen an die Türen?
+1. Anzeigepflicht vor Montage (Leser/Keypad außen, Ansteuerung des vorhandenen Türöffners bzw. Aufsatz am Zylinder).
+2. Variante A: Fachbetrieb steuert den vorhandenen elektrischen Türöffner, Panik/Klinke von innen unverändert. Zulässig? Müssen Öffner im Stromausfall oder Brandfall entriegeln, oder darf stromlos von außen verriegelt bleiben? Montage nur durch Elektrofachbetrieb — reicht das der Police?
+3. Variante B: batteriebetriebenes Smart Lock am Profilzylinder plus Keypad außen, ohne Eingriff in die Hauselektrik. An Gemeinschafts- und möglichen Rettungswegtüren zulässig oder ausgeschlossen? Einfluss des sichtbaren Keypads auf die Einbruchdeckung?
+4. Welche der Türen im Brandschutz-Ausschnitt UG/DG sind Rettungsweg — einschließlich Glastüren Veranstaltungsraum zum Hof (dort planen wir **keine** elektrische Verriegelung)?
+5. Kellergangtür: Sie schreiben, sie sei kein Fluchtweg und richtig ausgeführt. Vor Ort wirkt es so, als sei sie nach Abschluss von außen von innen nicht zu öffnen. Bitte das Schloss vorführen und mit Haftpflicht/Brandschutz klären, ob Personen in den Aufenthaltsräumen jederzeit ohne Schlüssel nach draußen kommen.
+6. Zeitlich begrenzter Gästezutritt per Buchungssystem (PIN/App): ändert das etwas an Obliegenheiten zur Schließmittel-Sorgfalt?
+7. Großer Gemeinschaftsraum bis 100 Personen: zusätzliche Anforderungen an die Türen?
 
 Eine andere Lösung als die Vorhaltung bleibt für uns möglich; wir wollen zuerst prüfen, ob wir die vorhandene Infrastruktur nutzen können.
 

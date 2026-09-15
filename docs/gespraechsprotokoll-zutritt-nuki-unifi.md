@@ -178,4 +178,5 @@ Hardware-Preise (Richtwerte): Ubiquiti EU Store (UA-Ultra, UA-Hub-Door-Mini, EAH
 ## Verwandte Dateien im Repo
 
 - `docs/nuki-vs-unifi.md` — kompakte Entscheidungsgrundlage und Kostentabellen
+- `docs/versicherung-nuki-unifi.md` — Versicherungsfragen Genossenschaft vs. Verein
 - `README.md` — FreiUndFritz / Anny + Türschloss (Software)

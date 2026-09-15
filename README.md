@@ -43,6 +43,7 @@ Entscheidungsunterlagen Nuki vs. UniFi Access (Anny, 5 Gemeinschaftstüren, Kost
 
 - [`docs/nuki-vs-unifi.md`](docs/nuki-vs-unifi.md) — Entscheidungsgrundlage
 - [`docs/gespraechsprotokoll-zutritt-nuki-unifi.md`](docs/gespraechsprotokoll-zutritt-nuki-unifi.md) — vollständiges Gesprächsprotokoll
+- [`docs/versicherung-nuki-unifi.md`](docs/versicherung-nuki-unifi.md) — Versicherungsfragen Genossenschaft vs. Verein, Nuki vs. UniFi, je Tür
 
 ## Architecture
 

@@ -214,11 +214,13 @@ Ohne 1–2 bleiben WLAN- und Brandschutzkosten Spekulation. Der Fachbetrieb hat 
 
 ## Versicherung — Kurzfassung
 
-Versicherer geben in der Regel **keine vorherige Freigabe** für DIY oder Fachbetrieb. Entscheidend ist der **Schadenfall**:
+Ausführlich: [`versicherung-nuki-unifi.md`](versicherung-nuki-unifi.md).
 
-- **Nuki:** kein Eingriff in die Hauselektrik; Keypad außen der Gebäudeversicherung kurz schriftlich nennen.
-- **UniFi:** nur mit eingetragenem Elektrobetrieb und Prüf-/Montagedokumentation vertretbar; DIY am Summer-Kreis: hohes Risiko für Leistungsverweigerung.
-- Smart Lock / digitaler Zugang ohne Einbruchspuren: Hausrat kann streitig sein (unabhängig vom Hersteller).
+Versicherer geben in der Regel **keine vorherige Freigabe**. Zwei Policen-Kreise: **Postbaugenossenschaft** (Gebäude + Gebäude-Haftpflicht, über HV/Gröpke) und **Bewohnerverein** (Vereins-Haftpflicht für Anny-Gäste).
+
+- **Nuki:** kein NAV-Eingriff; Keypad außen der Gebäudeversicherung schriftlich nennen; Rettungsweg/Glastüren/Kellergang-Einsperrung trotzdem klären.
+- **UniFi:** nur mit Elektrobetrieb und Protokoll; DIY am Summer: Risiko Leistungskürzung (§ 13 NAV).
+- Digitaler Zutritt ohne Einbruchspuren: Deckung kann streitig sein, unabhängig vom Hersteller.
 
 ---
 

@@ -1,6 +1,6 @@
 # Versicherungsfragen Nuki vs. UniFi
 
-Stand: September 2026. Quellen im Repo: Gröpke-Mail (Postbau), `nuki-vs-unifi.md`, Gesprächsprotokoll, Projektkontext Postbaugenossenschaft / Bewohnerverein, FreiUndFritz/Anny.
+Stand: September 2026. Quellen im Repo: Gröpke-Mail (Postbau), `nuki-vs-unifi.md`, Gesprächsprotokoll, Projektkontext Postbaugenossenschaft / Bewohnerverein (`docs/zutritt-nuki/`), FreiUndFritz/Anny.
 
 Versicherer **genehmigen die Montage in der Regel nicht im Voraus**. Gefragt wird nach **Anzeige**, **Deckung im Schadenfall** und **Obliegenheiten**. Schriftlich, **pro Tür**, **getrennt nach Police**.
 

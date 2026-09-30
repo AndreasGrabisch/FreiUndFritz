@@ -9,7 +9,7 @@ Maßgeblich für Beschluss, Pilot Apartment, Hausverwaltung:
 | Datei | Inhalt |
 |---|---|
 | [zutritt-nuki/analyse-fluchtwege.md](zutritt-nuki/analyse-fluchtwege.md) | Brandschutz-Ausschnitte + Zugangsschema, Tür für Tür |
-| [zutritt-nuki/projektplan.md](zutritt-nuki/projektplan.md) | Phasen, Kosten, Beschlussanträge |
+| [zutritt-nuki/projektplan.md](zutritt-nuki/projektplan.md) | Phasen, Kosten, Beschlussanträge (UniFi, v2.0) |
 | [zutritt-nuki/kontext-gebaeude.md](zutritt-nuki/kontext-gebaeude.md) | Türen, Kellergang, VR, Baustelle |
 | [zutritt-nuki/checkliste.md](zutritt-nuki/checkliste.md) | Vor Montage |
 | [zutritt-nuki/mail-hausverwaltung.md](zutritt-nuki/mail-hausverwaltung.md) | Anfrage an HV / Genossenschaft |
@@ -29,6 +29,7 @@ Aktuelle Hardware- und Versicherungsfassung (nach Gröpke und UniFi-Diskussion):
 | [gespraechsprotokoll-zutritt-nuki-unifi.md](gespraechsprotokoll-zutritt-nuki-unifi.md) | Gesprächsverlauf |
 | [versicherung-nuki-unifi.md](versicherung-nuki-unifi.md) | Policen Genossenschaft vs. Verein, je Tür |
 | [plan-zutritt-nuki-unifi.md](plan-zutritt-nuki-unifi.md) | Prüfplan Vorhaltung Postbau |
+| [gespraechsprotokoll-groepke-2026-09-22.md](gespraechsprotokoll-groepke-2026-09-22.md) | Treffen Vorstand PostBG (22.09.2026), UniFi-Pilot |
 | [antwort-groepke.md](antwort-groepke.md) | Entwurf Antwort an Jörg Gröpke |
 
 Kopien unter `zutritt-nuki/` (Vergleich, Protokoll, Kurz-Versicherung) auf die Dateien in dieser Tabelle verweisen, wenn sie abweichen.

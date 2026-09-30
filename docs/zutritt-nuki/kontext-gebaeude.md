@@ -13,8 +13,8 @@ Kanonische Fakten für alle Unterlagen. **Stand:** Planung 2026.
 | **Entscheidung Zutritt** | **Bewohnerverein** (nicht WEG-Eigentümerbeschluss) |
 | **Parteien** | **56 WE** laut Zugangsschema / Bauschriftfeld (Planungstexte nannten zuvor ca. 50) |
 | **Buchungssystem** | **Anny** (bereits gekauft/im Einsatz) |
-| **Geplante Technik** | **Nuki Smart Lock Pro** + **Keypad**, Anny-Integration |
-| **Software im Repo** | [`freiundfritz`](../../freiundfritz/) — Anny + Door Lock (Nuki Web API) |
+| **Geplante Technik** | **UniFi Door Access** (PoE, Leser mit PIN, Türöffner), Anny-Integration — Pilot 1 Testtür (Apartment); siehe [projektplan.md](projektplan.md) |
+| **Software im Repo** | [`freiundfritz`](../../freiundfritz/) — Anny + Door Lock (Erweiterung UniFi/API) |
 
 Öffentliche oder halböffentliche **Anny-Buchungen** für: Apartment (Dach), Musikraum, Kreativraum, Veranstaltungsraum (max. ca. 50 Personen).
 
@@ -24,7 +24,7 @@ Kanonische Fakten für alle Unterlagen. **Stand:** Planung 2026.
 
 Quellen: [analyse-fluchtwege.md](analyse-fluchtwege.md), [anlagen/Zugangsschema_WUP.pdf](anlagen/Zugangsschema_WUP.pdf).
 
-| Tür | Bau-ID | Lage | Rettungsweg | Nuki-Planung |
+| Tür | Bau-ID | Lage | Rettungsweg | UniFi-Planung |
 |-----|--------|------|-------------|--------------|
 | **Apartment** | NH_5_02 | 5. OG, 85,34 m² | **1. RW** der Wohnung zur Treppe; **2. RW** Fenster/Hubrettung | **Phase 1 Pilot** |
 | **Musikraum** | SB_-1_01_G | UG, Hobby, T30-RS | **1. RW** in den Kellerflur | Phase 2, Zylinder + T30-RS offen |
@@ -76,7 +76,7 @@ Langfristig sollen Gäste **primär über den Kellergang** ins Gebäude und zu d
 
 An **allen Kellertüren** unklar, ob Nuki funktioniert: **Schlüssel muss innen stecken und drehbar sein**. Bisher nur **ein Schlüssel** pro Raum — Test mit Zweitschlüssel oder Montageprobe **vor Bestellung** nötig.
 
-**Apartment:** sehr wahrscheinlich kompatibel (normale Wohnungstür; Referenz: Nuki funktioniert in vergleichbarer Wohnung im Haus).
+**Apartment:** vorverdrahtet (CAT7, Türöffner) — **UniFi-Pilot**; Öffner/Kasten vor Ort prüfen (nicht Zylinder-Nuki-Logik).
 
 ---
 

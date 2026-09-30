@@ -39,6 +39,7 @@ Dieser Ordner bündelt alle Unterlagen aus Planung, Chat und technischer Recherc
 
 ### Postbau / Gröpke / Brandschutz
 
+- [Treffen Gröpke 22.09.2026](../gespraechsprotokoll-groepke-2026-09-22.md) — UniFi-Pilot, Freigabe PostBG
 - [Analyse Fluchtwege + Schema](analyse-fluchtwege.md)
 - [Prüfplan Vorhaltung](../plan-zutritt-nuki-unifi.md)
 - [Antwortentwurf Gröpke](../antwort-groepke.md)
@@ -61,13 +62,16 @@ Dieser Ordner bündelt alle Unterlagen aus Planung, Chat und technischer Recherc
 | [systemvergleich-alternativen.md](systemvergleich-alternativen.md) | Warum nicht KleverKey, UniFi, … |
 | [vergleich-nuki-unifi.md](vergleich-nuki-unifi.md) | Tiefer Vergleich bei vorhandener Türtechnik |
 | [gespraechsprotokoll-nuki-unifi.md](gespraechsprotokoll-nuki-unifi.md) | Verlauf der UniFi-Diskussion |
+| [gespraechsprotokoll-groepke-2026-09-22.md](gespraechsprotokoll-groepke-2026-09-22.md) | Verweis auf Treffen PostBG |
 
 ---
 
 ## Aktuelle Projektentscheidung (Kurz)
 
-- **Gewählt für Umsetzung:** Nuki Smart Lock Pro + Keypad, Anny (bereits vorhanden)
-- **Pilot:** nur **Apartment** (~600 € Budget inkl. Internet/WLAN)
-- **Nicht im Pilot:** Haustür, Kellergang (Baustelle; künftiger Gäste-Hauptweg)
-- **Glastüren VR:** **kein Nuki**
-- **Freigabe:** **Bewohnerverein**; Abstimmung **Postbaugenossenschaft** für Gebäude/Fluchtweg
+**Nach Treffen mit Herrn Gröpke am 22.09.2026** ([Protokoll](../gespraechsprotokoll-groepke-2026-09-22.md)):
+
+- **Geplanter Rollout:** **UniFi Access** für alle Türen, Start mit **einer Testtür**; Einbau **Tobias Schüle** (PoE, kein Eingriff ins Haus-Stromnetz; Fluchttüren unverändert nutzbar)
+- **Postbaugenossenschaft:** Plan von **Herrn Gröpke** abgesegnet (inkl. Einbau ohne Fachbetrieb / versicherungstechnische Folgen)
+- **Offen:** Internet im Apartment ohne zweiten Vertrag; **Zustimmung Vorstand Bewohnerverein** ausstehend; Hardware für erste Testtür bestellen
+
+Ältere Vereinsvorlage (Nuki-Pilot Apartment) siehe [projektplan.md](projektplan.md) — vor Beschluss des Vereins anpassen.

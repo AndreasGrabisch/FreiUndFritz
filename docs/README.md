@@ -29,6 +29,7 @@ Aktuelle Hardware- und Versicherungsfassung (nach Gröpke und UniFi-Diskussion):
 | [gespraechsprotokoll-zutritt-nuki-unifi.md](gespraechsprotokoll-zutritt-nuki-unifi.md) | Gesprächsverlauf |
 | [versicherung-nuki-unifi.md](versicherung-nuki-unifi.md) | Policen Genossenschaft vs. Verein, je Tür |
 | [plan-zutritt-nuki-unifi.md](plan-zutritt-nuki-unifi.md) | Prüfplan Vorhaltung Postbau |
+| [gespraechsprotokoll-groepke-2026-09-22.md](gespraechsprotokoll-groepke-2026-09-22.md) | Treffen Vorstand PostBG (22.09.2026), UniFi-Pilot |
 | [antwort-groepke.md](antwort-groepke.md) | Entwurf Antwort an Jörg Gröpke |
 
 Kopien unter `zutritt-nuki/` (Vergleich, Protokoll, Kurz-Versicherung) auf die Dateien in dieser Tabelle verweisen, wenn sie abweichen.

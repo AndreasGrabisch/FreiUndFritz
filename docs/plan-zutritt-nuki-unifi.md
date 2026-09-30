@@ -2,6 +2,8 @@
 
 Auswertung der Mail von Jörg Gröpke und Vorgehen, um die Machbarkeit zu klären.
 
+**Update 22.09.2026:** Zusammenfassung des Treffens mit Herrn Gröpke (Vorstand PostBG) — UniFi-Pilot, eine Testtür, Einbau Tobias Schüle, Freigabe PostBG — in [gespraechsprotokoll-groepke-2026-09-22.md](gespraechsprotokoll-groepke-2026-09-22.md).
+
 ## 1. Was die Antwort bereits festlegt
 
 | Punkt | Bedeutung für uns |

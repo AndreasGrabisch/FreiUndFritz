@@ -1,8 +1,8 @@
-# Elektronische Zutrittskontrolle (Nuki + Anny)
+# Elektronische Zutrittskontrolle (UniFi Access + Anny)
 
-**Stand:** September 2026 · **Ort:** München, Bayern · **Entscheidung:** Bewohnerverein
+**Stand:** September 2026 · **Ort:** München, Bayern · **Entscheidung:** Bewohnerverein (PostBG-Freigabe 22.09.2026)
 
-Dieser Ordner bündelt alle Unterlagen aus Planung, Chat und technischer Recherche. Die **maßgebliche Entscheidungsvorlage** für die Mitgliederversammlung ist der [Projektplan](projektplan.md).
+Dieser Ordner bündelt alle Unterlagen aus Planung, Chat und technischer Recherche. Die **maßgebliche Entscheidungsvorlage** für die Mitgliederversammlung ist der [Projektplan](projektplan.md) (Version 2.0, UniFi).
 
 ---
 
@@ -68,10 +68,4 @@ Dieser Ordner bündelt alle Unterlagen aus Planung, Chat und technischer Recherc
 
 ## Aktuelle Projektentscheidung (Kurz)
 
-**Nach Treffen mit Herrn Gröpke am 22.09.2026** ([Protokoll](../gespraechsprotokoll-groepke-2026-09-22.md)):
-
-- **Geplanter Rollout:** **UniFi Access** für alle Türen, Start mit **einer Testtür**; Einbau **Tobias Schüle** (PoE, kein Eingriff ins Haus-Stromnetz; Fluchttüren unverändert nutzbar)
-- **Postbaugenossenschaft:** Plan von **Herrn Gröpke** abgesegnet (inkl. Einbau ohne Fachbetrieb / versicherungstechnische Folgen)
-- **Offen:** Internet im Apartment ohne zweiten Vertrag; **Zustimmung Vorstand Bewohnerverein** ausstehend; Hardware für erste Testtür bestellen
-
-Ältere Vereinsvorlage (Nuki-Pilot Apartment) siehe [projektplan.md](projektplan.md) — vor Beschluss des Vereins anpassen.
+Siehe **[projektplan.md](projektplan.md)** und [Treffen Gröpke 22.09.2026](../gespraechsprotokoll-groepke-2026-09-22.md): **UniFi Access**, Pilot **eine Testtür (Apartment)**, Einbau **Tobias Schüle**, PostBG abgesegnet; **Vereinsbeschluss** und **Internet Apartment** offen.

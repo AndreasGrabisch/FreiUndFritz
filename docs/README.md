@@ -9,7 +9,7 @@ Maßgeblich für Beschluss, Pilot Apartment, Hausverwaltung:
 | Datei | Inhalt |
 |---|---|
 | [zutritt-nuki/analyse-fluchtwege.md](zutritt-nuki/analyse-fluchtwege.md) | Brandschutz-Ausschnitte + Zugangsschema, Tür für Tür |
-| [zutritt-nuki/projektplan.md](zutritt-nuki/projektplan.md) | Phasen, Kosten, Beschlussanträge |
+| [zutritt-nuki/projektplan.md](zutritt-nuki/projektplan.md) | Phasen, Kosten, Beschlussanträge (UniFi, v2.0) |
 | [zutritt-nuki/kontext-gebaeude.md](zutritt-nuki/kontext-gebaeude.md) | Türen, Kellergang, VR, Baustelle |
 | [zutritt-nuki/checkliste.md](zutritt-nuki/checkliste.md) | Vor Montage |
 | [zutritt-nuki/mail-hausverwaltung.md](zutritt-nuki/mail-hausverwaltung.md) | Anfrage an HV / Genossenschaft |

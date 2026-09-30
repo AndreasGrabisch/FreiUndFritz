@@ -76,7 +76,7 @@ Langfristig sollen Gäste **primär über den Kellergang** ins Gebäude und zu d
 
 An **allen Kellertüren** unklar, ob Nuki funktioniert: **Schlüssel muss innen stecken und drehbar sein**. Bisher nur **ein Schlüssel** pro Raum — Test mit Zweitschlüssel oder Montageprobe **vor Bestellung** nötig.
 
-**Apartment:** sehr wahrscheinlich kompatibel (normale Wohnungstür; Referenz: Nuki funktioniert in vergleichbarer Wohnung im Haus).
+**Apartment:** vorverdrahtet (CAT7, Türöffner) — **UniFi-Pilot**; Öffner/Kasten vor Ort prüfen (nicht Zylinder-Nuki-Logik).
 
 ---
 

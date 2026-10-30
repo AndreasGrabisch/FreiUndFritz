@@ -30,6 +30,7 @@ Aktuelle Hardware- und Versicherungsfassung (nach Gröpke und UniFi-Diskussion):
 | [versicherung-nuki-unifi.md](versicherung-nuki-unifi.md) | Policen Genossenschaft vs. Verein, je Tür |
 | [plan-zutritt-nuki-unifi.md](plan-zutritt-nuki-unifi.md) | Prüfplan Vorhaltung Postbau |
 | [antwort-groepke.md](antwort-groepke.md) | Entwurf Antwort an Jörg Gröpke |
+| [protokoll-groepke-unifi.md](protokoll-groepke-unifi.md) | Kurzprotokoll an Gröpke: UniFi, Einbau ohne Fachbetrieb, Pilot |
 
 Kopien unter `zutritt-nuki/` (Vergleich, Protokoll, Kurz-Versicherung) auf die Dateien in dieser Tabelle verweisen, wenn sie abweichen.
 

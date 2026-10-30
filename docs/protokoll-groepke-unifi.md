@@ -12,7 +12,7 @@ zur Akte fassen wir die Abstimmung mit der Postbaugenossenschaft und den anschli
 
 1. Die Postbaugenossenschaft ist mit **UniFi Access** einverstanden.
 2. Der Einbau darf **ohne Fachbetrieb** erfolgen. Grund: Es erfolgt kein Eingriff in die Hauselektrik. Die Versorgung läuft über Power over Ethernet; ein Fachbetrieb ist damit nicht erforderlich.
-3. Die Postbaugenossenschaft **genehmigt den Einbau** und übernimmt die daraus folgenden Pflichten der Genossenschaft, darunter die Meldung an die Versicherung.
+3. Die Postbaugenossenschaft **genehmigt den Einbau** und kümmert sich um eventuelle Folgepflichten, die sich daraus für die Genossenschaft ergeben.
 
 ## Zur Kenntnisnahme
 
